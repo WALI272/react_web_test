@@ -1,0 +1,79 @@
+@font-face {
+    font-family: roboto_1;
+    src: url(../fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto_2;
+    src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+#top_bg {
+    background-color: rgb(50, 116, 116);
+}
+
+h1 {
+    font-family: roboto_1;
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black;
+}
+
+#header {
+    background: black;
+    padding: 2%;
+}
+
+#header_center {
+    background-color: grey;
+    border-radius: 5%;
+    border: 5px solid black;
+}
+#header_sides {
+    background: -webkit-linear-gradient(aqua, aquamarine);
+}
+
+
+#nav {
+    font-family: roboto_2;
+    background: -webkit-linear-gradient(aqua, aquamarine);
+    border-radius: 5%;
+    text-align: center;
+    border: 5px solid black;
+    align-self: center;
+    padding: 15px;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+#li {
+    display: inline-block;
+    border-radius: 20%;
+    color: white;
+}
+
+.col-sm-12 {
+    margin-top: 10px;
+}
+
+.nav_button {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    text-shadow: grey 2px 2px 2px;
+    cursor: pointer;
+}
+
+.nav_button:hover {
+    color: aquamarine;
+    transition: 0.4s;
+}
+
+.cont_texto {
+    background-color: grey;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.cont_texto:hover{
+    background: -webkit-linear-gradient(magenta, cyan);
+}

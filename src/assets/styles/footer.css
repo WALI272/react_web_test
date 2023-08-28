@@ -1,0 +1,49 @@
+@font-face {
+    font-family: roboto_3;
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+#footer_bg {
+    background-color: rgb(50, 116, 116);
+}
+
+.container {
+    background: rgb(71, 68, 68);
+    border-radius: 20px;
+    color: white;
+}
+
+#Footer_main_content {
+    color: white;
+    font-family: roboto_3;
+    text-shadow: 2px 2px 2px grey;
+}
+
+/*
+#footer_center_col {
+    
+}
+*/
+
+#footer_ul li {
+    display: inline;
+    font-size: 1.4em;
+}
+
+#footer_ul li a:hover {
+    color: aquamarine;
+}
+
+#bootom_footer_ul li {
+    display: inline;
+}
+
+
+#bootom_footer_ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#bootom_footer_ul li a:hover {
+    color: aquamarine;
+}
